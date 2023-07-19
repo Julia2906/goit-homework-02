@@ -1,0 +1,81 @@
+:root{
+    --global-font: 'Roboto',sans-serif;
+    --second-font: 'Raleway',sans-serif;
+    --global-text-color: #434455 ;
+    --second-text-color: #2E2F42 ;
+    --background-color-white: #ffffff ;
+    --background-clor-grey: #F4F4FD ;
+    --global-color-blue: #4D5AE5;
+    --active-button: #404BBF;
+
+}
+
+body {
+    font-family: var(--global-font);
+    background-color:var(--background-color-white);
+    color: var(--global-text-color) ;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+}
+
+.link {
+    text-decoration: none;
+    list
+}
+
+.list {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: var(--second-font);
+    color: var(--global-color-blue) ;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+}
+
+.address {
+    font-style: normal;
+}
+
+.studio {
+    color: var(--second-text-color);
+}
+
+.hero {
+background-color: var(--second-text-color);
+}
+
+.hero-button {
+    font-family: inherit;
+    background-color: var(--global-color-blue);
+    color: var(--background-color-white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    font-weight: 500;
+
+}
+
+.hero-button:hover{
+    background-color: var(--active-button);
+}
+
+
+
+/* general color 
+#2E2F42 */
+/* color h1
+#FFF */
+
+/* color adress 
+ #434455 */
+
+/* logo color #4D5AE5 
+*/
+/* фон первой секции и футера  #2E2F42  
+*/
+/* фон третьей секции #F4F4FD
+ */
