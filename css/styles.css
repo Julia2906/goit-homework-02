@@ -139,8 +139,9 @@ body {
 
 /* Team */
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--background-clor-grey);
 }
+
 .team-name{
     color: var(--second-text-color);
     font-size: 20px;
@@ -156,8 +157,8 @@ body {
     letter-spacing: 0.32px;
 }
 
-.team{
-    background-color: #ffffff;
+.team-item{
+    background-color: var(--background-color-white);
 }
 /* Team */
 
