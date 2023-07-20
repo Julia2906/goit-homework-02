@@ -51,6 +51,7 @@ body {
 
 .auth-nav .link{
     font-weight: 400;
+    color: var(--global-text-color);
 }
 
 .list {
@@ -67,8 +68,10 @@ body {
     font-family: var(--second-font);
     color: var(--global-color-blue) ;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .studio {
@@ -90,9 +93,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.64px;
     font-weight: 500;
+    cursor: pointer;
 }
 
-.hero-button:hover{
+.hero-button:hover,
+.hero-button:focus{
     background-color: var(--active-button);
 }
 
@@ -101,27 +106,27 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 /* Hero */
 
 .features-title, .products-title, .team-title{
     color: var(--second-text-color);
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 /* Features */
-.features-list{
-    list-style-type: none;
-}
 
 .features-list .title {
     color: var(--second-text-color);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    font-weight: 500;
 }
 
 .features-description {
@@ -132,22 +137,16 @@ body {
 }
 /* Features */
 
-/* Products */
-.products-list {
-    list-style-type: none;
-}
-/* Products */
-
 /* Team */
-.team-list{
-    list-style-type: none;
+.team {
+    background-color: #F4F4FD;
 }
-
 .team-name{
     color: var(--second-text-color);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    font-weight: 500;
 }
 
 .team-position{
@@ -155,6 +154,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+
+.team{
+    background-color: #ffffff;
 }
 /* Team */
 
@@ -197,6 +200,7 @@ body {
     font-size: 20px;
     line-height: 1.2; 
     letter-spacing: 0.4px;
+    font-weight: 500;
 }
 
 .portfolio-text {
