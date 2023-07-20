@@ -121,11 +121,11 @@ body {
 
 /* Features */
 
-.features-list .title {
+.features .title {
     color: var(--second-text-color);
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     font-weight: 500;
 }
 
@@ -181,11 +181,13 @@ body {
 /* Portfolio */
 
 .portfolio-buttons{
-    background-color: var(--portfolio-button);
+    background-color: var(--background-clor-grey);
     color: var(--global-color-blue);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    font-family: var(--global-font);
+    font-weight: 500;
 }
 
 .portfolio-buttons:hover,
